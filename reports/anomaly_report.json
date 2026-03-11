@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-03-12T03:42:34.806430",
+  "total_records": 500,
+  "total_anomalies": 20,
+  "anomaly_rate_pct": 4.0,
+  "anomalies": [
+    {
+      "timestamp": "2024-01-01 04:10:00",
+      "cpu_usage_pct": 98.5,
+      "memory_usage_pct": 60.69,
+      "disk_usage_pct": 51.87,
+      "network_latency_ms": 350.0,
+      "error_count": 28,
+      "response_time_ms": 2500.0,
+      "anomaly_score": -0.8095,
+      "reasons": [
+        "CPU spike: 98.5%",
+        "High latency: 350.0 ms",
+        "Error burst: 28 errors",
+        "Slow response: 2500.0 ms"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 16:40:00",
+      "cpu_usage_pct": 98.5,
+      "memory_usage_pct": 97.2,
+      "disk_usage_pct": 55.63,
+      "network_latency_ms": 21.75,
+      "error_count": 26,
+      "response_time_ms": 2500.0,
+      "anomaly_score": -0.7942,
+      "reasons": [
+        "CPU spike: 98.5%",
+        "Memory spike: 97.2%",
+        "Error burst: 26 errors",
+        "Slow response: 2500.0 ms"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 11:00:00",
+      "cpu_usage_pct": 98.5,
+      "memory_usage_pct": 97.2,
+      "disk_usage_pct": 57.69,
+      "network_latency_ms": 10.1,
+      "error_count": 21,
+      "response_time_ms": 2500.0,
+      "anomaly_score": -0.7934,
+      "reasons": [
+        "CPU spike: 98.5%",
+        "Memory spike: 97.2%",
+        "Error burst: 21 errors",
+        "Slow response: 2500.0 ms"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 01:50:00",
+      "cpu_usage_pct": 98.5,
+      "memory_usage_pct": 58.51,
+      "disk_usage_pct": 96.0,
+      "network_latency_ms": 350.0,
+      "error_count": 24,
+      "response_time_ms": 96.92,
+      "anomaly_score": -0.791,
+      "reasons": [
+        "CPU spike: 98.5%",
+        "Disk spike: 96.0%",
+        "High latency: 350.0 ms",
+        "Error burst: 24 errors"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 10:00:00",
+      "cpu_usage_pct": 98.5,
+      "memory_usage_pct": 97.2,
+      "disk_usage_pct": 60.53,
+      "network_latency_ms": 20.57,
+      "error_count": 22,
+      "response_time_ms": 117.14,
+      "anomaly_score": -0.7113,
+      "reasons": [
+        "CPU spike: 98.5%",
+        "Memory spike: 97.2%",
+        "Error burst: 22 errors"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 10:20:00",
+      "cpu_usage_pct": 50.87,
+      "memory_usage_pct": 72.75,
+      "disk_usage_pct": 63.17,
+      "network_latency_ms": 29.37,
+      "error_count": 5,
+      "response_time_ms": 154.83,
+      "anomaly_score": -0.5601,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 21:15:00",
+      "cpu_usage_pct": 40.16,
+      "memory_usage_pct": 81.06,
+      "disk_usage_pct": 48.95,
+      "network_latency_ms": 26.87,
+      "error_count": 3,
+      "response_time_ms": 94.27,
+      "anomaly_score": -0.541,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 17:25:00",
+      "cpu_usage_pct": 83.53,
+      "memory_usage_pct": 73.57,
+      "disk_usage_pct": 63.75,
+      "network_latency_ms": 15.13,
+      "error_count": 0,
+      "response_time_ms": 139.31,
+      "anomaly_score": -0.5343,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 14:05:00",
+      "cpu_usage_pct": 34.65,
+      "memory_usage_pct": 63.65,
+      "disk_usage_pct": 56.91,
+      "network_latency_ms": 35.69,
+      "error_count": 4,
+      "response_time_ms": 140.19,
+      "anomaly_score": -0.5296,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 16:55:00",
+      "cpu_usage_pct": 59.8,
+      "memory_usage_pct": 43.67,
+      "disk_usage_pct": 67.79,
+      "network_latency_ms": 23.77,
+      "error_count": 0,
+      "response_time_ms": 144.48,
+      "anomaly_score": -0.5281,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 08:05:00",
+      "cpu_usage_pct": 47.61,
+      "memory_usage_pct": 52.17,
+      "disk_usage_pct": 45.01,
+      "network_latency_ms": 30.29,
+      "error_count": 0,
+      "response_time_ms": 88.59,
+      "anomaly_score": -0.5273,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 08:25:00",
+      "cpu_usage_pct": 40.79,
+      "memory_usage_pct": 52.62,
+      "disk_usage_pct": 40.52,
+      "network_latency_ms": 26.87,
+      "error_count": 2,
+      "response_time_ms": 196.68,
+      "anomaly_score": -0.5262,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 10:10:00",
+      "cpu_usage_pct": 59.03,
+      "memory_usage_pct": 75.06,
+      "disk_usage_pct": 58.19,
+      "network_latency_ms": 24.6,
+      "error_count": 4,
+      "response_time_ms": 176.21,
+      "anomaly_score": -0.5249,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 21:50:00",
+      "cpu_usage_pct": 12.59,
+      "memory_usage_pct": 80.48,
+      "disk_usage_pct": 57.69,
+      "network_latency_ms": 20.38,
+      "error_count": 1,
+      "response_time_ms": 163.99,
+      "anomaly_score": -0.5245,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 05:05:00",
+      "cpu_usage_pct": 43.14,
+      "memory_usage_pct": 76.6,
+      "disk_usage_pct": 40.76,
+      "network_latency_ms": 16.26,
+      "error_count": 2,
+      "response_time_ms": 165.84,
+      "anomaly_score": -0.5237,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 11:25:00",
+      "cpu_usage_pct": 58.69,
+      "memory_usage_pct": 47.81,
+      "disk_usage_pct": 45.17,
+      "network_latency_ms": 15.4,
+      "error_count": 3,
+      "response_time_ms": 138.86,
+      "anomaly_score": -0.5211,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 17:15:00",
+      "cpu_usage_pct": 50.14,
+      "memory_usage_pct": 74.04,
+      "disk_usage_pct": 51.69,
+      "network_latency_ms": 29.5,
+      "error_count": 4,
+      "response_time_ms": 161.35,
+      "anomaly_score": -0.5187,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 23:50:00",
+      "cpu_usage_pct": 43.48,
+      "memory_usage_pct": 66.67,
+      "disk_usage_pct": 45.82,
+      "network_latency_ms": 18.45,
+      "error_count": 0,
+      "response_time_ms": 64.7,
+      "anomaly_score": -0.5163,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-01 02:55:00",
+      "cpu_usage_pct": 32.79,
+      "memory_usage_pct": 60.38,
+      "disk_usage_pct": 62.87,
+      "network_latency_ms": 12.03,
+      "error_count": 0,
+      "response_time_ms": 71.2,
+      "anomaly_score": -0.5161,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    },
+    {
+      "timestamp": "2024-01-02 17:20:00",
+      "cpu_usage_pct": 34.63,
+      "memory_usage_pct": 74.38,
+      "disk_usage_pct": 65.31,
+      "network_latency_ms": 19.87,
+      "error_count": 3,
+      "response_time_ms": 184.41,
+      "anomaly_score": -0.5134,
+      "reasons": [
+        "Multi-metric deviation detected"
+      ]
+    }
+  ]
+}
