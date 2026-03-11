@@ -1,0 +1,35 @@
+# Environment & secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.venv/
+
+# Generated data (tracked separately)
+logs/*.csv
+reports/*.png
+reports/*.txt
+
+# Keep anomaly JSON report in git
+!reports/anomaly_report.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
